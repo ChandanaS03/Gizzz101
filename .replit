@@ -91,3 +91,7 @@ run = ["sh", "-c", "node index.js"]
 [auth]
 pageEnabled = true
 buttonEnabled = false
+
+[[ports]]
+localPort = 3001
+externalPort = 80
